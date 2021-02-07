@@ -39,6 +39,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 0;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -212,7 +216,23 @@ a {
   cursor: pointer;
 }
 
-/* Features */
+/* Benefits */
+
+.benefits-wrapper {
+  padding-top: 94px;
+}
+
+.benefits-list {
+  display: flex;
+}
+
+.benefits-item {
+  flex-basis: 270px;
+}
+
+.benefits-item:not(:last-child) {
+  margin-right: 30px;
+}
 
 .benefits-item-title {
   font-size: 14px;
@@ -222,6 +242,7 @@ a {
 }
 
 .benefits-item-text {
+  margin-top: 10px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
