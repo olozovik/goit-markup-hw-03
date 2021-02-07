@@ -250,10 +250,28 @@ p {
 
 /* Чем мы занимаемся */
 
+.activities-wrapper {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .activities-title {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.activities-list {
+  display: flex;
+}
+
+.activities-item + .activities-item {
+  margin-left: 30px;
+}
+
+.activities-image {
+  display: block;
 }
 
 /* Наша команда */
