@@ -8,6 +8,7 @@
   --secondary-bg-color: #f5f4fa;
   --footer-bg-color: #2f303a;
   --accent-color: #2196f3;
+  --border-color: #ececec;
 }
 
 body {
@@ -23,12 +24,15 @@ h3,
 h4,
 h5,
 h6 {
+  margin: 0;
   color: var(--title-text-color);
   font-weight: 700;
 }
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -49,9 +53,35 @@ a {
   overflow: hidden;
 }
 
-/* LOGO */
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* HEADER */
+
+.header {
+  border-bottom: 1px solid var(--border-color);
+  padding-top: 20px;
+  padding-bottom: 19px;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
 
 .header-logo {
+  padding-top: 5px;
+  padding-bottom: 5px;
   color: var(--black-text-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -66,7 +96,19 @@ a {
 
 /* Menu */
 
+.menu {
+  display: flex;
+  margin-left: 93px;
+}
+
+.menu-item + .menu-item {
+  margin-left: 50px;
+}
+
 .menu-link {
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 12px;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -78,7 +120,19 @@ a {
   color: var(--accent-color);
 }
 
+.contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.contacts-item + .contacts-item {
+  margin-left: 50px;
+}
+
 .contacts-link {
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 12px;
   color: currentColor;
   font-weight: 500;
   font-size: 14px;
@@ -128,19 +182,25 @@ a {
 /* Hero */
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--footer-bg-color);
+  text-align: center;
 }
 
 .hero-title {
   color: var(--white-text-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 1.37;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 .hero-button {
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
   background-color: var(--accent-color);
   color: var(--white-text-color);
   font-weight: 700;
