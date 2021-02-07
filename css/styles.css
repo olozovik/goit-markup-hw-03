@@ -9,7 +9,7 @@
   --footer-bg-color: #2f303a;
   --accent-color: #2196f3;
 }
-
+/* test comment */
 body {
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
