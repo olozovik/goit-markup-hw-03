@@ -156,6 +156,11 @@ a {
   background-color: var(--footer-bg-color);
 }
 
+.footer-wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .footer-logo {
   color: var(--white-text-color);
   font-family: Raleway, sans-serif;
@@ -170,6 +175,7 @@ a {
 }
 
 .address {
+  margin-top: 20px;
   color: var(--white-text-color);
   font-size: 14px;
   line-height: 1.71;
@@ -177,8 +183,21 @@ a {
   letter-spacing: 0.03em;
 }
 
+.address-list {
+  margin-top: 9px;
+}
+
+.address-item + .address-item {
+  margin-top: 9px;
+}
+
 .address-link {
   color: var(--address-color-link);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
 }
 
 /* СТУДИЯ */
