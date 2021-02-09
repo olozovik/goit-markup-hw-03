@@ -84,20 +84,23 @@ a {
   align-items: center;
 }
 
-.header-logo {
-  margin-right: 93px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: var(--black-text-color);
+.logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.header-logo {
+  margin-right: 93px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .header-logo span {
-  color: var(--accent-color);
+  color: var(--black-text-color);
 }
 
 /* Menu */
@@ -169,16 +172,16 @@ a {
 .footer-logo {
   display: block;
   margin-bottom: 20px;
-  color: var(--white-text-color);
+  /* color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03em; */
 }
 
 .footer-logo span {
-  color: var(--accent-color);
+  color: var(--white-text-color);
 }
 
 .address {
