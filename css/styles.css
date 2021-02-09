@@ -247,6 +247,7 @@ a {
 
 .benefits-container {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .benefits-list {
@@ -278,7 +279,6 @@ a {
 /* Чем мы занимаемся */
 
 .activities-container {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -287,15 +287,12 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .activities-list {
   display: flex;
-  margin-top: 50px;
-}
-
-.activities-item + .activities-item {
-  margin-left: 30px;
+  justify-content: space-between;
 }
 
 .activities-image {
