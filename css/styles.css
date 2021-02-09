@@ -74,8 +74,6 @@ a {
 
 .header-container {
   display: flex;
-  padding-top: 20px;
-  padding-bottom: 19px;
   align-items: center;
 }
 
@@ -115,8 +113,8 @@ a {
 
 .menu-link {
   display: block;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   font-size: 14px;
   font-weight: 500;
@@ -140,8 +138,8 @@ a {
 
 .contacts-link {
   display: block;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   font-size: 14px;
   font-weight: 500;
