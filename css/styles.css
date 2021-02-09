@@ -70,11 +70,11 @@ a {
 
 .header {
   border-bottom: 1px solid var(--border-color);
-  padding-top: 20px;
-  padding-bottom: 19px;
 }
 
 .header-container {
+  padding-top: 20px;
+  padding-bottom: 19px;
   display: flex;
   align-items: center;
 }
@@ -85,6 +85,7 @@ a {
 }
 
 .header-logo {
+  margin-right: 93px;
   padding-top: 5px;
   padding-bottom: 5px;
   color: var(--black-text-color);
@@ -103,11 +104,14 @@ a {
 
 .menu {
   display: flex;
-  margin-left: 93px;
 }
 
-.menu-item + .menu-item {
+/* .menu-item + .menu-item {
   margin-left: 50px;
+} */
+
+.menu-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .menu-link {
@@ -216,6 +220,7 @@ a {
 }
 
 .hero-title {
+  margin-bottom: 30px;
   color: var(--white-text-color);
   font-weight: 900;
   font-size: 44px;
@@ -229,7 +234,6 @@ a {
   height: 50px;
   border: none;
   border-radius: 4px;
-  margin-top: 30px;
   background-color: var(--accent-color);
   color: var(--white-text-color);
   font-weight: 700;
