@@ -295,6 +295,10 @@ a {
   justify-content: space-between;
 }
 
+.activities-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .activities-image {
   display: block;
 }
