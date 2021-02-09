@@ -406,26 +406,30 @@ a {
   flex-basis: calc(100% / 3 - 30px);
   margin-top: 30px;
   margin-left: 30px;
-  border: 1px solid var(--border-color-works);
 }
 
 .works-image {
   display: block;
-  width: 100%;
+}
+
+.works-content {
+  border-right: 1px solid var(--border-color-works);
+  border-left: 1px solid var(--border-color-works);
+  border-bottom: 1px solid var(--border-color-works);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 
 .works-item-title {
-  margin-top: 20px;
-  margin-left: 24px;
+  margin-bottom: 4px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .works-item-text {
-  margin-top: 4px;
-  margin-bottom: 20px;
-  margin-left: 24px;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
