@@ -380,6 +380,10 @@ a {
   justify-content: center;
 }
 
+.filters-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .filters-button {
   width: 128px;
   height: 38px;
@@ -395,10 +399,6 @@ a {
   border-radius: 4px;
   cursor: pointer;
   background-color: var(--secondary-bg-color);
-}
-
-.filters-item:not(:last-child) {
-  margin-right: 8px;
 }
 
 .filters-button:hover,
