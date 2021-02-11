@@ -142,6 +142,8 @@ img {
 
 .contacts-link {
   display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   font-size: 14px;
   font-weight: 500;
@@ -160,9 +162,6 @@ img {
 /* FOOTER */
 .footer {
   background-color: var(--footer-bg-color);
-}
-
-.footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -206,14 +205,12 @@ img {
 /* Hero */
 
 .hero {
-  background-color: var(--footer-bg-color);
-}
-
-.hero-container {
   padding-top: 200px;
   padding-bottom: 200px;
 
   text-align: center;
+
+  background-color: var(--footer-bg-color);
 }
 
 .hero-title {
@@ -245,7 +242,7 @@ img {
 
 /* Benefits */
 
-.benefits-container {
+.benefits {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -264,6 +261,8 @@ img {
 }
 
 .benefits-item-title {
+  margin-bottom: 10px;
+
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -271,8 +270,6 @@ img {
 }
 
 .benefits-item-text {
-  margin-top: 10px;
-
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -280,7 +277,7 @@ img {
 
 /* Чем мы занимаемся */
 
-.activities-container {
+.activities {
   padding-bottom: 94px;
 }
 
@@ -309,12 +306,10 @@ img {
 /* Наша команда */
 
 .team {
-  background-color: var(--secondary-bg-color);
-}
-
-.team-container {
   padding-top: 94px;
   padding-bottom: 94px;
+
+  background-color: var(--secondary-bg-color);
 }
 
 .team-title {
@@ -371,7 +366,7 @@ img {
 
 /* Фильтры */
 
-.works-container {
+.works {
   padding-top: 94px;
   padding-bottom: 94px;
 }
