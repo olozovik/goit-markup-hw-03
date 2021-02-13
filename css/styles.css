@@ -99,6 +99,8 @@ img {
 
 .header-logo {
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-logo span {
@@ -374,6 +376,7 @@ img {
 .filters {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .filters-item:not(:last-child) {
@@ -381,9 +384,10 @@ img {
 }
 
 .filters-button {
-  width: 128px;
+  /* width: 128px; */
   height: 38px;
-  padding: 0;
+  padding-right: 22px;
+  padding-left: 22px;
 
   font-size: 16px;
   font-weight: 500;
@@ -408,7 +412,7 @@ img {
 .works-list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: -30px;
   margin-left: -30px;
 }
 
